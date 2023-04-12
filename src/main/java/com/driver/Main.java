@@ -6,7 +6,7 @@ public class Main
   {
     RWOnly obj = new RWOnly();
     //obj.var = 1; error: var has private access in RWOnly
-    obj.setVar(1);
-    System.out.println(obj.getVar());
+    obj.setName("noname");
+    System.out.println(obj.getName());
   }
 }
